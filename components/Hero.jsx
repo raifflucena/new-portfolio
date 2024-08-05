@@ -3,10 +3,10 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <section id="hero">
-      <div className="flex flex-col bg-base-200 min-h-screen gap-20 pt-36">
+      <div className="flex flex-col bg-base-200 min-h-screen gap-20 pt-64">
         <div className="flex flex-col mx-auto max-w-screen-lg gap-20">
-          <div className="flex flex-row gap-12">
-
+          <div className="flex flex-row gap-12 px-10">
+        
             {/* HERO TEXT */}
             <div className="flex flex-col justify-center">
               <div className="mb-2">
@@ -56,7 +56,7 @@ export const Hero = () => {
             <div className="box"></div>
           </div>
 
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center px-10">
             <div className="mr-14">
               <p className="underline" style={{ textUnderlineOffset: "12px" }}>
                 Tech Stack
