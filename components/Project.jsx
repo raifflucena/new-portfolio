@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <div className="flex mx-16 mb-14">
-      <div className="w-2/3 pr-6">
+    <div className="flex flex-col md:flex-row mb-14">
+      <div className="w-full md:w-2/3 mb-6 md:mb-0 md:pr-6">
         <Image
           src="/project1.png"
           alt="Project 1 Image"
@@ -12,7 +12,7 @@ const Project = () => {
           className="rounded-2xl w-full h-auto"
         />
       </div>
-      <div className="w-1/3 flex items-center">
+      <div className="w-full md:w-1/3 flex items-center">
         <div className="flex flex-col">
           <h3 className="text-lg font-bold mb-2 text-blue-500">AI YOUTUBE SUMMARY GENERATOR</h3>
           <p className="text-base text-gray-500">

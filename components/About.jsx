@@ -2,10 +2,9 @@ import Image from "next/image";
 
 const About = () => {
   return (
-
-    <div className="flex py-36 mx-96">
-      <div className="flex mx-10 max-w-6xl">
-        <div className="w-1/2 pr-6">
+    <div className="py-12 sm:py-24 md:py-36 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48">
+      <div className="flex flex-col md:flex-row max-w-6xl mx-auto">
+        <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-6">
           <Image
             src="/img-side.webp"
             alt="side-image"
@@ -15,7 +14,7 @@ const About = () => {
           />
         </div>
 
-        <div className="flex flex-col justify-center w-1/2 pl-6">
+        <div className="flex flex-col justify-center w-full md:w-1/2 md:pl-6">
           <h3 className="text-xl font-bold mb-2 text-blue-500">
             ABOUT ME
           </h3>
@@ -31,7 +30,6 @@ const About = () => {
             Tailwind CSS and TypeScript.
           </p>
         </div>
-
       </div>
     </div>
   );
