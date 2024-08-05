@@ -53,16 +53,8 @@ export const Hero = () => {
               </div>
             </div>
 
-            {/* HERO IMG */}
-            <Image
-              src="/profile.jpeg"
-              className="max-w-sm rounded-lg shadow-2xl"
-              width={250}
-              height={200}
-              alt="hero-img"
-            />
+            <div className="box"></div>
           </div>
-
 
           <div className="flex flex-row items-center">
             <div className="mr-14">

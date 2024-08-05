@@ -85,7 +85,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get in touch</a>
+          <a className="btn btn-primary">Get in touch</a>
         </div>
       </div>
     </section>
