@@ -2,19 +2,21 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <div className="flex flex-col md:flex-row mb-14">
-      <div className="w-full md:w-2/3 mb-6 md:mb-0 md:pr-6">
+    <div className="flex flex-col md:flex-row items-center">
+      <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <Image
           src="/project1.png"
           alt="Project 1 Image"
-          width={500}
+          width={700}
           height={500}
-          className="rounded-2xl w-full h-auto"
+          className="rounded-3xl"
         />
       </div>
-      <div className="w-full md:w-1/3 flex items-center">
-        <div className="flex flex-col">
-          <h3 className="text-lg font-bold mb-2 text-blue-500">AI YOUTUBE SUMMARY GENERATOR</h3>
+      <div className="w-full md:w-1/2 flex items-center justify-center">
+        <div className="max-w-sm flex flex-col items-center justify-center text-center">
+          <h3 className="text-base font-bold mb-2 text-blue-500">
+            AI YOUTUBE SUMMARY GENERATOR
+          </h3>
           <p className="text-base text-gray-500">
             Hey, my name is Raiff, and I'm a Frontend Developer. My passion is
             to create and develop a clean UI/UX.
