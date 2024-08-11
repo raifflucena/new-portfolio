@@ -14,7 +14,7 @@ export const Hero = () => {
                   Front-End React Developer 👋🏼
                 </h1>
                 <p className="py-6 text-lg">
-                  Hi, I'm Raiff Lucena. A passionate Front-end React Developer
+                  Hi, I&apos;m Raiff Lucena. A passionate Front-end React Developer
                   based in Brazil. 📍
                 </p>
                 {/* <button className="btn btn-primary">Get Started</button> */}
@@ -65,16 +65,16 @@ export const Hero = () => {
             <div>
               <p className="flex-wrap px-2 gap-8 md:flex" align="center">
                 <a href="https://skillicons.dev">
-                  <img src="https://skillicons.dev/icons?i=html,css" />
+                  <Image src="https://skillicons.dev/icons?i=html,css" />
                 </a>
                 <a href="https://skillicons.dev">
-                  <img src="https://skillicons.dev/icons?i=js,ts" />
+                  <Image src="https://skillicons.dev/icons?i=js,ts" />
                 </a>
                 <a href="https://skillicons.dev">
-                  <img src="https://skillicons.dev/icons?i=react,nextjs" />
+                  <Image src="https://skillicons.dev/icons?i=react,nextjs" />
                 </a>
                 <a href="https://skillicons.dev">
-                  <img src="https://skillicons.dev/icons?i=tailwind,sass" />
+                  <Image src="https://skillicons.dev/icons?i=tailwind,sass" />
                 </a>
               </p>
             </div>

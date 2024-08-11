@@ -21,7 +21,7 @@ const About = () => {
             Front-end Developer <br /> based in Campina Grande, Brazil 📍
           </h4>
           <p className="text-base text-gray-500">
-            Hey, my name is Raiff, and I'm a Frontend Developer. My passion is
+            Hey, my name is Raiff, and I&apos;m a Frontend Developer. My passion is
             to create and develop a clean UI/UX.
             <br />
             <br />
