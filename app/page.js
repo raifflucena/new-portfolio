@@ -8,12 +8,12 @@ import ProjectsSection from "@/components/ProjectsSection";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <About />
-      <ProjectsSection />
-      <Contact />
-      <Footer />
+      {/* <About /> */}
+      {/* <ProjectsSection /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   );
 }

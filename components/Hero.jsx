@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section id="hero">
+    <section id="hero" className="flex flex-wrap">
       <div className="flex flex-col bg-base-200 min-h-screen gap-20 pt-64">
         <div className="flex flex-col mx-auto max-w-screen-lg gap-20">
-          <div className="flex flex-row gap-12 px-10">
+          <div className="flex flex-row flex-wrap gap-12 px-10">
         
             {/* HERO TEXT */}
             <div className="flex flex-col justify-center">
@@ -63,7 +63,7 @@ export const Hero = () => {
               </p>
             </div>
             <div>
-              <p className="flex-wrap px-2 gap-8 md:flex" align="center">
+              {/* <p className="flex-wrap px-2 gap-8 md:flex" align="center">
                 <a href="https://skillicons.dev">
                   <Image src="https://skillicons.dev/icons?i=html,css" />
                 </a>
@@ -76,7 +76,7 @@ export const Hero = () => {
                 <a href="https://skillicons.dev">
                   <Image src="https://skillicons.dev/icons?i=tailwind,sass" />
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
 
