@@ -3,14 +3,14 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <section id="hero" className="flex flex-wrap">
-      <div className="flex flex-col bg-base-200 min-h-screen gap-20 pt-64">
-        <div className="flex flex-col mx-auto max-w-screen-lg gap-20">
-          <div className="flex flex-row flex-wrap gap-12 px-10">
+      <div className="flex flex-col bg-base-200 gap-20 pt-28 lg:pt-44 w-full pb-20 sm:h-screen">
+        <div className="px-0 lg:px-8 xl:px-36">
+          <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap justify-center gap-12 px-0 lg:px-10">
         
             {/* HERO TEXT */}
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
               <div className="mb-2">
-                <h1 className="text-6xl font-bold">
+                <h1 className="text-5xl sm:text-6xl font-bold">
                   Front-End React Developer 👋🏼
                 </h1>
                 <p className="py-6 text-lg">
@@ -56,27 +56,43 @@ export const Hero = () => {
             <div className="box"></div>
           </div>
 
-          <div className="flex flex-row items-center px-10">
-            <div className="mr-14">
-              <p className="underline" style={{ textUnderlineOffset: "12px" }}>
+          <div className="flex flex-col lg:flex-row lg:mt-20 items-center px-10">
+            <div className="mb-10 lg:mb-0 lg:mr-20">
+              <p className="underline font-bold" style={{ textUnderlineOffset: "12px" }}>
                 Tech Stack
               </p>
             </div>
             <div>
-              {/* <p className="flex-wrap px-2 gap-8 md:flex" align="center">
-                <a href="https://skillicons.dev">
-                  <Image src="https://skillicons.dev/icons?i=html,css" />
-                </a>
-                <a href="https://skillicons.dev">
-                  <Image src="https://skillicons.dev/icons?i=js,ts" />
-                </a>
-                <a href="https://skillicons.dev">
-                  <Image src="https://skillicons.dev/icons?i=react,nextjs" />
-                </a>
-                <a href="https://skillicons.dev">
-                  <Image src="https://skillicons.dev/icons?i=tailwind,sass" />
-                </a>
-              </p> */}
+              <ul className="flex flex-wrap justify-center px-2 gap-8" align="center">
+                <li href="https://skillicons.dev">
+                  <Image 
+                    src="/html_css.svg" 
+                    width={110}
+                    height={50}
+                  />
+                </li>
+                <li href="https://skillicons.dev">
+                  <Image 
+                    src="/js_ts.svg"
+                    width={110}
+                    height={50} 
+                  />
+                </li>
+                <li href="https://skillicons.dev">
+                  <Image 
+                    src="/react_next.svg"
+                    width={110}
+                    height={50} 
+                  />
+                </li>
+                <li href="https://skillicons.dev">
+                  <Image 
+                    src="/tailwind_sass.svg"
+                    width={110}
+                    height={50} 
+                  />
+                </li>
+              </ul>
             </div>
           </div>
 

@@ -24,6 +24,13 @@
     transition: all 1s ease-in-out;
 }
 
+@media (max-width: 767px) {
+    .box {
+        width: 280px;
+        height: 330px;
+    }
+}
+
 @keyframes animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

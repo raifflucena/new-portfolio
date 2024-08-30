@@ -2,10 +2,9 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="py-32">
-      <div className="flex mx-auto max-w-screen-lg">
+      <div className="flex flex-wrap sm:flex-nowrap py-24">
         <div className="w-full">
-          <div className="w-[410px] h-[350px]">
+          <div>
             <Image
               src="/img-side.webp"
               alt="side-image"
@@ -30,7 +29,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
   );
 };
 

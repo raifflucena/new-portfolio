@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="w-full">
           <h3 className="text-lg font-bold mb-2 text-blue-500">CONTACT</h3>
           <h2 className="text-2xl font-bold">Don&apos;t be shy! Hit me up! 👇</h2>
-          <div className="flex mt-12 gap-20">
+          <div className="flex flex-wrap sm:flex-nowrap mt-12 gap-20">
             <div className="flex gap-5 justify-center items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
