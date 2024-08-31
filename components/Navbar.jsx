@@ -1,4 +1,31 @@
+"use client";
+
+import React, { useEffect } from "react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+
 const Navbar = () => {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (pathname) {
+      const id = pathname.substring(2); // Remove the '/#' from the pathname
+      scrollToSection(id);
+    }
+  }, [pathname]);
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleNavClick = (e, sectionId) => {
+    e.preventDefault();
+    scrollToSection(sectionId);
+  };
+
   return (
     <section id="navbar">
       <div className="navbar bg-base-100 fixed top-0 w-full z-10">
@@ -25,16 +52,33 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Home</a>
+                <Link href="/#home" onClick={(e) => handleNavClick(e, "home")}>
+                  Home
+                </Link>
               </li>
               <li>
-                <a>About</a>
+                <Link
+                  href="/#about"
+                  onClick={(e) => handleNavClick(e, "about")}
+                >
+                  About
+                </Link>
               </li>
               <li>
-                <a>Projects</a>
+                <Link
+                  href="/#projects"
+                  onClick={(e) => handleNavClick(e, "projects")}
+                >
+                  Projects
+                </Link>
               </li>
               <li>
-                <a>Contact</a>
+                <Link
+                  href="/#contact"
+                  onClick={(e) => handleNavClick(e, "contact")}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -43,16 +87,30 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Home</a>
+              <Link href="/#home" onClick={(e) => handleNavClick(e, "home")}>
+                Home
+              </Link>
             </li>
             <li>
-              <a>About</a>
+              <Link href="/#about" onClick={(e) => handleNavClick(e, "about")}>
+                About
+              </Link>
             </li>
             <li>
-              <a>Projects</a>
+              <Link
+                href="/#projects"
+                onClick={(e) => handleNavClick(e, "projects")}
+              >
+                Projects
+              </Link>
             </li>
             <li>
-              <a>Contact</a>
+              <Link
+                href="/#contact"
+                onClick={(e) => handleNavClick(e, "contact")}
+              >
+                Contact
+              </Link>
             </li>
             <li className="justify-items-center">
               <label className="swap swap-rotate">
@@ -85,7 +143,13 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-primary">Get in touch</a>
+          <Link
+            href="/#contact"
+            className="btn btn-primary"
+            onClick={(e) => handleNavClick(e, "contact")}
+          >
+            Get in touch
+          </Link>
         </div>
       </div>
     </section>

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
-    <div className="py-32 bg-gray-100">
-      <div className="flex flex-col mx-auto max-w-screen-lg gap-24">
+    <section id="projects" className="py-32 bg-gray-100 px-8 md:px-12 xl:px-52">
+      <div className="flex flex-col mx-auto max-w-screen-lg gap-16">
         <div className="w-full">
           <h3 className="text-xl font-bold mb-2 text-blue-500">PROJECTS</h3>
-          <h4 className="text-lg">
+          <h4 className="text-xl font-bold">
             Each project is a unique piece of development 🧩
           </h4>
         </div>
@@ -32,7 +32,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

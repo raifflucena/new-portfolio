@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section id="hero" className="flex flex-wrap">
+    <section id="home" className="flex flex-wrap">
       <div className="flex flex-col bg-base-200 gap-20 pt-28 lg:pt-44 w-full pb-20 sm:h-screen">
-        <div className="px-0 lg:px-8 xl:px-36">
-          <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap justify-center gap-12 px-0 lg:px-10">
+        <div className="px-0 lg:px-14 2xl:px-96 2xl:mx-30">
+          <div className="flex flex-row flex-wrap-reverse lg:flex-nowrap justify-center gap-12 md:gap-0 lg:gap-12">
         
             {/* HERO TEXT */}
             <div className="flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
@@ -56,9 +56,9 @@ export const Hero = () => {
             <div className="box"></div>
           </div>
 
-          <div className="flex flex-col lg:flex-row lg:mt-20 items-center px-10">
+          <div className="flex flex-col lg:flex-row lg:mt-20 items-center">
             <div className="mb-10 lg:mb-0 lg:mr-20">
-              <p className="underline font-bold" style={{ textUnderlineOffset: "12px" }}>
+              <p className="underline font-bold xl:pl-12 2xl:ml-64 2xl:pl-5" style={{ textUnderlineOffset: "12px" }}>
                 Tech Stack
               </p>
             </div>

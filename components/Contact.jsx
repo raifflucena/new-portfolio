@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="py-32">
+    <section id="contact" className="py-32 px-8 md:px-12 xl:px-52">
       <div className="flex flex-col mx-auto max-w-screen-lg gap-24">
         <div className="w-full">
           <h3 className="text-lg font-bold mb-2 text-blue-500">CONTACT</h3>
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

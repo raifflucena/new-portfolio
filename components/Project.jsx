@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center">
+    <section id="hero" className="flex flex-col md:flex-row items-center">
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <Image
           src="/project1.png"
@@ -27,7 +27,7 @@ const Project = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
