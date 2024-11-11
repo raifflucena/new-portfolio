@@ -6,7 +6,12 @@ const Footer = () => {
           <p className="font-bold">Copyright © {new Date().getFullYear()} - All rights reserved</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-          <a>
+          <a
+            href="https://www.linkedin.com/in/raifflucena"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-current hover:text-blue-500 transition-colors duration-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -24,7 +29,12 @@ const Footer = () => {
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </a>
-          <a>
+          <a
+            href="https://github.com/raifflucena"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-current hover:text-blue-500 transition-colors duration-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
