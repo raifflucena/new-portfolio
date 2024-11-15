@@ -13,7 +13,7 @@ const Projects = () => {
         <div className="flex flex-col lg:flex-row gap-10 items-center">
           <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
             <a
-              href="https://ai-summary-lyart.vercel.app/"
+              href="https://ai-summary-red.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@ const Projects = () => {
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center justify-center text-center">
             <a
-              href="https://ai-summary-lyart.vercel.app/"
+              href="https://ai-summary-red.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
