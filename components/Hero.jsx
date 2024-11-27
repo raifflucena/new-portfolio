@@ -85,16 +85,16 @@ export const Hero = () => {
                   align="center"
                 >
                   <li href="https://skillicons.dev">
-                    <Image src="/html_css.svg" width={110} height={50} />
+                    <Image src="/html_css.svg" alt="htmlcss_icon" width={110} height={50} />
                   </li>
                   <li href="https://skillicons.dev">
-                    <Image src="/js_ts.svg" width={110} height={50} />
+                    <Image src="/js_ts.svg" alt="jsts_icon" width={110} height={50} />
                   </li>
                   <li href="https://skillicons.dev">
-                    <Image src="/react_next.svg" width={110} height={50} />
+                    <Image src="/react_next.svg" alt="reactnext_icon" width={110} height={50} />
                   </li>
                   <li href="https://skillicons.dev">
-                    <Image src="/tailwind_sass.svg" width={110} height={50} />
+                    <Image src="/tailwind_sass.svg" alt="tailwindsass_icon" width={110} height={50} />
                   </li>
                 </ul>
               </div>

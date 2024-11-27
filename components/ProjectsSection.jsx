@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "@/components/ui/badge";
 
 const Projects = () => {
   return (
@@ -39,11 +39,11 @@ const Projects = () => {
                 </h3>
               </a>
               <p className="text-base text-gray-500">
-                This is a personal project to transform lengthy YouTube videos into quick, digestible text
-                summaries with our cutting-edge web app. Simply paste a video
-                link, and within seconds, our AI delivers a concise overview of
-                the content. Save time, grasp key points, and enhance your video
-                consumption efficiency.
+                This is a personal project to transform lengthy YouTube videos
+                into quick, digestible text summaries with our cutting-edge web
+                app. Simply paste a video link, and within seconds, our AI
+                delivers a concise overview of the content. Save time, grasp key
+                points, and enhance your video consumption efficiency.
               </p>
             </div>
           </div>
@@ -63,8 +63,9 @@ const Projects = () => {
               <p className="text-base text-gray-500">
                 Website developed using Vanilla JS, HTML, and CSS. An electronic
                 security company seeking a simple website to validate with Meta
-                (WhatsApp). The brand's colors were preserved to harmonize with
-                the rest of the site while they work on redesigning the logo.
+                (WhatsApp). The brand&apos;s colors were preserved to harmonize
+                with the rest of the site while they work on redesigning the
+                logo.
               </p>
             </div>
           </div>
@@ -92,8 +93,8 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="block"
             >
-              <Badge 
-                variant="destructive" 
+              <Badge
+                variant="destructive"
                 className="absolute bottom-4 right-4 z-10"
               >
                 Under Development
@@ -119,10 +120,10 @@ const Projects = () => {
                 </h3>
               </a>
               <p className="text-base text-gray-500">
-                Website still <b><u>under development</u></b> using Next.js, as the client
-                requested maximum performance. I chose this technology for its
-                high page loading speed and scalability, considering the
-                client's plans to expand the project.
+                Website still under development using Next.js, as the client requested maximum performance. I
+                chose this technology for its high page loading speed and
+                scalability, considering the client&apos;s plans to expand the
+                project.
               </p>
             </div>
           </div>
