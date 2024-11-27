@@ -11,7 +11,7 @@ const Projects = () => {
             Each project is a unique piece of development 🧩
           </h4>
         </div>
-        <div className="flex flex-col lg:flex-row gap-10 items-center">
+        <div className="flex flex-col lg:flex-row gap-10 items-center mb-4">
           <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
             <a
               href="https://ai-summary-red.vercel.app/"
@@ -48,7 +48,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-10 items-center">
+        <div className="flex flex-col-reverse lg:flex-row gap-10 items-center mb-4">
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center justify-center text-center">
               <a
