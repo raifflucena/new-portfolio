@@ -96,6 +96,9 @@ export const Hero = () => {
                   <li href="https://skillicons.dev">
                     <Image src="/tailwind_sass.svg" alt="tailwindsass_icon" width={110} height={50} />
                   </li>
+                  <li href="https://skillicons.dev">
+                    <Image src="/supabase.svg" alt="supabase_icon" width={50} height={50} />
+                  </li>
                 </ul>
               </div>
             </div>
