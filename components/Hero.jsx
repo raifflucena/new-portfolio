@@ -84,19 +84,13 @@ export const Hero = () => {
                   align="center"
                 >
                   <li href="https://skillicons.dev">
-                    <Image src="/html_css.svg" alt="htmlcss_icon" width={110} height={50} />
+                    <Image src="/js_ts_node_react.svg" alt="js_ts_node_react_icons" width={250} height={110} />
                   </li>
                   <li href="https://skillicons.dev">
-                    <Image src="/js_ts.svg" alt="jsts_icon" width={110} height={50} />
+                    <Image src="/nextjs_tailwind_postgres_prisma.svg" alt="nextjs_tailwind_postgres_prisma_icons" width={250} height={110} />
                   </li>
                   <li href="https://skillicons.dev">
-                    <Image src="/react_next.svg" alt="reactnext_icon" width={110} height={50} />
-                  </li>
-                  <li href="https://skillicons.dev">
-                    <Image src="/tailwind_sass.svg" alt="tailwindsass_icon" width={110} height={50} />
-                  </li>
-                  <li href="https://skillicons.dev">
-                    <Image src="/supabase.svg" alt="supabase_icon" width={50} height={50} />
+                    <Image src="/supabase_postman_git_docker.svg" alt="supabase_postman_git_docker_icons" width={250} height={110} />
                   </li>
                 </ul>
               </div>

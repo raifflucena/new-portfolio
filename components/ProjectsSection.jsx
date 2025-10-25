@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Badge } from "./ui/badge";
 
 const Projects = () => {
   return (
@@ -12,7 +13,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-col lg:flex-row gap-10 items-center mb-4">
           <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
-          <a
+            <a
               href="https://www.xtradecar.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,10 +40,10 @@ const Projects = () => {
                 </h3>
               </a>
               <p className="text-base text-gray-500">
-                Website still under development using Next.js, as the client requested maximum performance. I
-                chose this technology for its high page loading speed and
-                scalability, considering the client&apos;s plans to expand the
-                project.
+                Website still under development using Next.js, as the client
+                requested maximum performance. I chose this technology for its
+                high page loading speed and scalability, considering the
+                client&apos;s plans to expand the project.
               </p>
             </div>
           </div>
@@ -82,6 +83,49 @@ const Projects = () => {
                 className="rounded-3xl"
               />
             </a>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row gap-10 items-center mb-4">
+          <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
+            <div className="relative w-full h-80 bg-gray-200 rounded-3xl flex items-center justify-center">
+              <Image
+                src="/agend.png"
+                alt="Agend Project Image"
+                width={700}
+                height={500}
+                className="rounded-3xl"
+              />
+              <Badge
+                variant="destructive"
+                className="absolute top-4 right-4 z-10"
+              >
+                Under Development
+              </Badge>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2">
+            <div className="flex flex-col items-center justify-center text-center">
+              <h3 className="text-base font-bold mb-2 text-blue-500">
+                Agend - Smart Scheduling System
+              </h3>
+              <p className="text-base text-gray-500">
+                A smart appointment scheduling system developed as a side
+                project, focusing on flexibility and efficiency for both clients
+                and service providers.
+                <br />
+                <br />
+                Built with modern technologies including Next.js, React,
+                TypeScript, Tailwind CSS, and Shadcn UI for the frontend.
+                Backend powered by Prisma, PostgreSQL, NextAuth.js for
+                authentication, and bcryptjs for password security.
+                <br />
+                <br />
+                Features intelligent queue management with fixed-time or
+                smart-queue scheduling, real-time notifications, customizable
+                professional profiles, flexible availability settings, and
+                comprehensive dashboard with service metrics.
+              </p>
+            </div>
           </div>
         </div>
       </div>
