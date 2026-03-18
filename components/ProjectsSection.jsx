@@ -52,80 +52,37 @@ const Projects = () => {
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center justify-center text-center">
               <a
-                href="https://fortalezaseguranca.com.br/"
+                href="https://placas.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <h3 className="text-base font-bold mb-2 text-blue-500">
-                  Fortaleza Electronic Security
+                  PLACASAPP (UNDER DEVELOPMENT)
                 </h3>
               </a>
               <p className="text-base text-gray-500">
-                Website developed using Vanilla JS, HTML, and CSS. An electronic
-                security company seeking a simple website to validate with Meta
-                (WhatsApp). The brand&apos;s colors were preserved to harmonize
-                with the rest of the site while they work on redesigning the
-                logo.
+                Website that allows users to quickly and easily look up vehicle
+                information by license plate. It is built with Next.js, TypeScript,
+                and Tailwind. Users can view basic data for free and pay via Mercado Pago
+                to unlock a more detailed report, including information such as debts,
+                fines, and restrictions, as well as download or share the results.
               </p>
             </div>
           </div>
           <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
             <a
-              href="https://fortalezaseguranca.com.br/"
+              href="https://placas.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/fortaleza_project.png"
-                alt="Fortaleza Project Image"
+                src="/placasapp.png"
+                alt="Placasapp Project Image"
                 width={700}
                 height={500}
                 className="rounded-3xl"
               />
             </a>
-          </div>
-        </div>
-        <div className="flex flex-col lg:flex-row gap-10 items-center mb-4">
-          <div className="w-3/4 lg:w-1/2 mb-8 md:mb-0">
-            <div className="relative w-full h-80 bg-gray-200 rounded-3xl flex items-center justify-center">
-              <Image
-                src="/agend.png"
-                alt="Agend Project Image"
-                width={700}
-                height={500}
-                className="rounded-3xl"
-              />
-              <Badge
-                variant="destructive"
-                className="absolute top-4 right-4 z-10"
-              >
-                Under Development
-              </Badge>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-base font-bold mb-2 text-blue-500">
-                Agend - Smart Scheduling System
-              </h3>
-              <p className="text-base text-gray-500">
-                A smart appointment scheduling system developed as a side
-                project, focusing on flexibility and efficiency for both clients
-                and service providers.
-                <br />
-                <br />
-                Built with modern technologies including Next.js, React,
-                TypeScript, Tailwind CSS, and Shadcn UI for the frontend.
-                Backend powered by Prisma, PostgreSQL, NextAuth.js for
-                authentication, and bcryptjs for password security.
-                <br />
-                <br />
-                Features intelligent queue management with fixed-time or
-                smart-queue scheduling, real-time notifications, customizable
-                professional profiles, flexible availability settings, and
-                comprehensive dashboard with service metrics.
-              </p>
-            </div>
           </div>
         </div>
       </div>
