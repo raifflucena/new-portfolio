@@ -11,10 +11,10 @@ export const Hero = () => {
               <div className="flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
                 <div className="mb-2">
                   <h1 className="text-5xl sm:text-6xl font-bold">
-                    Front-End Developer 👋🏼
+                    Software Engineer 👋🏼
                   </h1>
                   <p className="py-6 text-lg">
-                    Hi, I&apos;m Raiff Lucena. A passionate Front-end Developer based in Brazil. 📍
+                    Hi, I&apos;m Raiff Lucena. A passionate Software Engineer based in Brazil. 📍
                   </p>
                   {/* <button className="btn btn-primary">Get Started</button> */}
                 </div>

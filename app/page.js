@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
       <ProjectsSection />
       <Contact />
       <Footer />
